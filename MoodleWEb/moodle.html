@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> __Mymoodle__ </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+    <style>
+        .button {
+          line-height: 4;
+          padding: 15px 25px;
+          margin:282px;
+          font-size: 24px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: #fff;
+          
+          border: none;
+          border-radius: 20px;
+          box-shadow: 0 9px rgb(98, 97, 97);
+        }
+    
+        
+        .button:hover {background-color: #3e8e41}
+        
+        .button:active {
+          background-color: #3e8e41;
+          box-shadow: 0 5px #666;
+          transform: translateY(4px);
+        }
+        .headd{
+            color:rgb(74, 41, 73);
+           
+            padding: 15px 25px;
+           /* margin:180px;*/
+            font-size: 40px;
+            position:absolute ;
+            top:40%;
+            width:100%;
+	        font-family: 'Courgette', cursive;
+            font-size:4em;    
+            transform:translate ;
+            transform:translateY (-50%);
+           /* text-align: center;*/
+
+        }
+          script{
+            
+          }
+        
+
+        </style>
+</head>
+<body>
+
+<div id=" divTime" style=" margin-left: 930px; font-weight: bold;
+margin-top: 44px;
+font-family: ui-rounded;
+font-size: xxx-large; ">
+  
+  <script type="text/javascript ">  
+    var myDate = new Date(); 
+    var myDay = myDate.getDay(); 
+    
+    // Array of days. 
+    var weekday = ['Sunday', 'Monday', 'Tuesday', 
+        'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+    ]; 
+    document.write( weekday[myDay] + " "); 
+       
+    // get hour value. 
+    var hours = myDate.getHours(); 
+    var ampm = hours >= 12 ? 'PM' : 'AM'; 
+    hours = hours % 12; 
+    hours = hours ? hours : 12; 
+    var minutes = myDate.getMinutes(); 
+    minutes = minutes < 10 ? '0' + minutes : minutes; 
+    var myTime = hours + " " + " : " + minutes  + " " + ampm ; 
+ 
+    document.write( myTime); 
+    document.write( );
+
+    if(ampm == 'PM'){
+      if(hours == 12)
+        document.write("<br>" + "Good Afternoon Geethma"); 
+      else 
+      document.write("<br>" + "Good Evening Geethma"); 
+    }
+    else
+    document.write( "<br>" + "Good Morning Geethma"); 
+
+</script> 
+
+</div>
+ 
+<div style=" margin-top: -105px; "  >
+
+  
+  <a href="https://moodle.itfac.uom.lk/" class="button" style="background-color: #4CAF50;"> Home </a><br>
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1847" class="button" style="background-color: #245125;"> B18_IN 2510 - Computer Networks</a><br>
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1848" class="button" style="background-color: #2544e1ee;"> B18_IN 2600 - Computer Graphics and Animation</a><br>
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1844" class="button" style="background-color: #d14ae9;"> B18_IN 2110 - Data Structures and Algorithms </a><br>
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1829" class="button" style="background-color: #e191cf;"> B18_IN 2320 - Computer Architecture </a><br>
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1849" class="button" style="background-color: #0d28d6;"> B18_IS 2010 - Scientific Communication </a><br>
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1850" class="button" style="background-color: #4e0b16;"> B18_IS 2220 - Essentials of Law </a><br>
+  <img src="pencil.png" alt="pencil"  style="width: 152px; margin-left:1322px; margin-top: -158px; margin-bottom: 47px; position: fixed;">
+  <a href="https://moodle.itfac.uom.lk/course/view.php?id=1862" class="button" style="background-color: #13a2df;"> B18_DI 1005 - Understanding Customer Service </a><br></br>
+  <h1 class="headd" style="position: fixed;"><b> L2_S2 </b></h1>
+
+</div>
+
+
+    
+
+
+    
+
+
+</body>
+</html> 
